@@ -1,0 +1,9 @@
+.CTABgColor {
+  background: rgb(26, 115, 233);
+  background: linear-gradient(
+    128deg,
+    rgba(26, 115, 233, 1) 38%,
+    rgba(179, 208, 248, 0) 39%,
+    rgba(255, 255, 255, 1) 40%
+  );
+}

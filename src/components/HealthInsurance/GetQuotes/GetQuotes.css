@@ -1,0 +1,10 @@
+.getQuotesBg {
+  background: linear-gradient(180deg, #0b3186 0%, #030c20 100%);
+}
+.getQuoteBottom__Wrapper{
+  background:  url('../../../assets/GetQuotesBgImg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}

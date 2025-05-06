@@ -1,0 +1,12 @@
+.customABCHoverEffect:hover .iconWrapper {
+  background-color: #0c0544;
+}
+.customABCHoverEffect:hover .iconWrapper span svg g path {
+  fill: white !important;
+}
+.customABCHoverEffect:hover .iconWrapper span svg path {
+  fill: white !important;
+}
+.customABCHoverEffect:hover .iconWrapper svg path {
+  fill: white !important;
+}

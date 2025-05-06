@@ -1,0 +1,18 @@
+.customHoverEffect__service:hover {
+  background-color: #0c0544;
+}
+.customHoverEffect__service:hover .heading {
+  color: white;
+}
+.customHoverEffect__service:hover .readMoreWrapper {
+  background-color: #f08613;
+}
+.customHoverEffect__service:hover .readMoreWrapper a {
+  color: white;
+}
+.customHoverEffect__service:hover .readMoreWrapper a span svg path{
+  fill: white;
+}
+.customHoverEffect__service:hover .iconWrapper {
+  background-color: #f08613;
+}
