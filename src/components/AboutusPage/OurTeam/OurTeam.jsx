@@ -18,12 +18,6 @@ const teamList = [
     review: `At JOptiman, we're more than an agency; we're a family dedicated to helping others build a lasting legacy. Planting the seed of wealth is at the heart of everything we do, as we work to make a difference in lives and families within our communities. Our top leaders are humble, mission-driven, and genuinely invested in every agent’s success. With a unique growth structure and a warm, welcoming environment, we’re here to empower each other and create a future that’s rich not only in prosperity but in purpose. Together, we're building a brighter tomorrow for ourselves, our clients, and the generations to come.`,
   },
   {
-    img: TeamImg1,
-    name: "Dr. Ben Jikong",
-    position: "President",
-    review: `Our consultants help people with a sense of inclusive stewardship, a well-cultivated self-awareness, and love. We value diversity and faith, as we create a loving environment for our consultants and clients. When our clients succeed and can go to bed with a calm sense of peace of mind because they have set their lives, legacy, and family finances in order, we take pride in that. Financial security means having enough money to cover your expenses, emergencies, retirement, and leaving a legacy for your loved ones. Just image: What if money were not an issue to you? The point we are making here is that if you did not come from a wealthy family, wealth can come from you. Together we will build generational wealth.`,
-  },
-  {
     img: TeamImg2,
     name: "Mercy Jikong ",
     position: "Vice President",
