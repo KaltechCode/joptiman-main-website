@@ -3,6 +3,7 @@ import JOptimanLogog from "../../../assets/JOptimanlogo.png";
 import { AlignLeft, X } from "lucide-react";
 import { stagger, useAnimate } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
+import { facebook, instagram, x } from "../../../util/constant";
 
 const navLinks = [
   {
@@ -146,7 +147,7 @@ export const Navbar = () => {
                   Follow us :
                 </span>
                 <span className="flex justify-center items-center gap-4">
-                  <Link to="https://x.com/?lang=en&mx=2" target="_blank">
+                  <Link to={x} target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="14"
@@ -160,7 +161,7 @@ export const Navbar = () => {
                       />
                     </svg>
                   </Link>
-                  <Link to="https://www.facebook.com/" target="_blank">
+                  <Link to={facebook} target="_blank">
                     <svg
                       width="15"
                       height="15"
@@ -174,7 +175,7 @@ export const Navbar = () => {
                       />
                     </svg>
                   </Link>
-                  <Link to="https://www.instagram.com/" target="_blank">
+                  <Link to={instagram} target="_blank">
                     <svg
                       width="14"
                       height="14"
