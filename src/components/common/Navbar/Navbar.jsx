@@ -147,7 +147,10 @@ export const Navbar = () => {
                   Follow us :
                 </span>
                 <span className="flex justify-center items-center gap-4">
-                  <Link to={x} target="_blank">
+                  <Link
+                    to="https://www.facebook.com/people/Joptiman-Consultancy/61576049077219/"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="14"
@@ -161,7 +164,7 @@ export const Navbar = () => {
                       />
                     </svg>
                   </Link>
-                  <Link to={facebook} target="_blank">
+                  <Link to="https://x.com/JOptiman" target="_blank">
                     <svg
                       width="15"
                       height="15"
@@ -175,7 +178,10 @@ export const Navbar = () => {
                       />
                     </svg>
                   </Link>
-                  <Link to={instagram} target="_blank">
+                  <Link
+                    to="https://www.instagram.com/joptiman/"
+                    target="_blank"
+                  >
                     <svg
                       width="14"
                       height="14"
