@@ -11,7 +11,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 
 
 export const SteperFormSection = ({ btnTitle, button }) => {
-  const [showPath, setShowPath] = useState(false)
+  // const [showPath, setShowPath] = useState(false)
   const [agentInfo, setAgentInfo] = useState({
     firstName: "",
     lastName: "",
