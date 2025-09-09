@@ -33,11 +33,36 @@ export const GetInTouch = () => {
                     to="/"
                     className="text-[16px] font-secondaryFont font-[500] text-[#767676] flex flex-col gap-.5"
                   >
-                    <Link to='https://maps.app.goo.gl/fdykDgwtyHqRovC76' target="_blank">675 Town Square Blvd,</Link>
-                    <Link to='https://maps.app.goo.gl/fdykDgwtyHqRovC76' target="_blank">Suite 200,</Link>
-                    <Link to='https://maps.app.goo.gl/fdykDgwtyHqRovC76' target="_blank">Garland,</Link>
-                    <Link to='https://maps.app.goo.gl/fdykDgwtyHqRovC76' target="_blank">Texas,</Link>
-                    <Link to='https://maps.app.goo.gl/fdykDgwtyHqRovC76' target="_blank">TX 75040</Link>
+                    <Link
+                      to="https://maps.app.goo.gl/fdykDgwtyHqRovC76"
+                      target="_blank"
+                    >
+                      675 Town Square Blvd,
+                    </Link>
+                    <Link
+                      to="https://maps.app.goo.gl/fdykDgwtyHqRovC76"
+                      target="_blank"
+                    >
+                      Suite 200,
+                    </Link>
+                    <Link
+                      to="https://maps.app.goo.gl/fdykDgwtyHqRovC76"
+                      target="_blank"
+                    >
+                      Garland,
+                    </Link>
+                    <Link
+                      to="https://maps.app.goo.gl/fdykDgwtyHqRovC76"
+                      target="_blank"
+                    >
+                      Texas,
+                    </Link>
+                    <Link
+                      to="https://maps.app.goo.gl/fdykDgwtyHqRovC76"
+                      target="_blank"
+                    >
+                      TX 75040
+                    </Link>
                   </Link>
                 </div>
 
@@ -46,10 +71,10 @@ export const GetInTouch = () => {
                     Phone
                   </h4>
                   <Link
-                    to="tel:+1 (469) -823 -1490"
+                    to="tel:+1(888) 491-7757"
                     className="text-[16px] font-secondaryFont font-[500] text-[#767676]"
                   >
-                    +1 (469) -823 -1490
+                    +1 (888) 491-7757
                   </Link>
                 </div>
 

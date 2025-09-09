@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import AboutInfoBg from "../../../assets/AboutInfoBg.png";
 import AboutInfoImg1 from "../../../assets/AboutInfoImg1.png";
 import AboutInfoImg2 from "../../../assets/AboutInfoImg2.png";
-import AboutInfoImg3 from "../../../assets/AboutInfoImg3.png";
+import AboutImgNew3 from "../../../assets/AboutImgNew3.jpg";
 
 export const AboutInfo = () => {
   const router = useNavigate();
@@ -13,7 +13,11 @@ export const AboutInfo = () => {
         <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] flex 2xl:flex-row xl:flex-row 4k:flex-row 3k:flex-row md:portrait:flex-col lg:landscape:flex-row lg:portrait:flex-col flex-col justify-center items-center gap-10">
           <div className="flex-1 relative p-5 md:portrait:w-[70%] lg:portrait:w-[60%] 2xl:w-full xl:w-full 4k:w-full 3k:w-full w-[80%]">
             <div className=" absolute top-0 left-0 w-full h-full">
-              <img src={AboutInfoBg} alt="AboutInfoBg" className="w-full h-full" />
+              <img
+                src={AboutInfoBg}
+                alt="AboutInfoBg"
+                className="w-full h-full"
+              />
             </div>
             <div className="relative flex justify-center items-center gap-5 w-full">
               <div className="flex flex-col gap-5 flex-1">
@@ -21,7 +25,11 @@ export const AboutInfo = () => {
                 <img src={AboutInfoImg2} alt="AboutInfoImg2" />
               </div>
               <div className="flex-1">
-                <img src={AboutInfoImg3} alt="AboutInfoImg3" />
+                <img
+                  src={AboutImgNew3}
+                  alt="AboutInfoImg3"
+                  className="rounded-md"
+                />
               </div>
             </div>
           </div>
