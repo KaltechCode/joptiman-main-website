@@ -94,7 +94,7 @@ export const ContactForm = () => {
                   <input
                     className="bg-[#fff] placeholder:text-[#767676] w-full px-4 py-3 font-[400] font-secondaryFont text-base"
                     type="text"
-                    placeholder="Subject*"
+                    placeholder="Enter Subject*"
                     id="subject"
                     name="subject"
                     value={contactInfo.subject}
@@ -106,7 +106,7 @@ export const ContactForm = () => {
               <div className="w-full">
                 <textarea
                   rows={6}
-                  placeholder="Write Message*"
+                  placeholder="Enter Message*"
                   id="message"
                   name="message"
                   value={contactInfo.message}

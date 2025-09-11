@@ -1,0 +1,6 @@
+.customHoverEffect:hover .gearColorWrapper {
+  opacity: 1;
+}
+.customHoverEffect:hover .gearWrapper {
+  opacity: 0;
+}
