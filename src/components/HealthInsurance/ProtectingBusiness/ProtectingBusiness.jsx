@@ -1,9 +1,10 @@
+import React from "react";
 import "./ProtectingBusiness.css";
 import HealthInsuranceImg2 from "../../../assets/HealthInsuranceImg2.png";
 import { useNavigate } from "react-router-dom";
 
 export const ProtectingBusiness = () => {
-  const navigte = useNavigate()
+  const navigte = useNavigate();
   return (
     <>
       <div className="2xl:min-h-[90dvh] xl:min-h-[90dvh] lg:min-h-[90dvh] md:portrait:min-h-[50dvh] lg:portrait:min-h-[90dvh] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-16 xl:py-16  4k:xl:py-20 3k:xl:py-20 md:portrait:py-20 lg:py-20 py-20">
@@ -34,8 +35,6 @@ export const ProtectingBusiness = () => {
                 className="rounded-lg"
               />
 
-
-
               <div className="absolute -bottom-14 left-0 w-full  flex justify-center items-center gap-4">
                 <div className="w-[97%] 2xl:flex xl:flex lg:flex 4k:flex 3k:flex md:portrait:flex hidden  justify-center items-center gap-4 CTABgColor rounded-lg">
                   <div className="2xl:w-[40%] xl:w-[40%] lg:w-[45%] 4k:w-[40%] 3k:w-[40%] md:portrait:w-[40%] py-7 px-8">
@@ -49,22 +48,22 @@ export const ProtectingBusiness = () => {
 
                   <div className="flex-1 py-7 2xl:px-8 xl:px-8 lg:px-5 md:portrait:px-2 4k:px-8 3k:px-8 flex justify-around items-center">
                     <div className="flex-shrink-0">
-                      <p className="text-right text-[#767676] font-secondaryFont font-[500] 2xl:text-lg xl:text-lg lg:text-base md:portrait:sm 4k:text-lg 3k:text-lg">Schedule a </p>
+                      <p className="text-right text-[#767676] font-secondaryFont font-[500] 2xl:text-lg xl:text-lg lg:text-base md:portrait:sm 4k:text-lg 3k:text-lg">
+                        Schedule a{" "}
+                      </p>
                       <h3 className="2xl:text-2xl xl:text-2xl lg:text-xl md:portrait:text-lg 4k:text-2xl 3k:text-2xl font-[700] font-mainFont text-[#00204A]">
-                      <span className="text-[#F08613]">Free</span> assessment
+                        <span className="text-[#F08613]">Free</span> assessment
                       </h3>
                     </div>
-                    <button onClick={()=>navigte('/contact-us')} className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg">
-                    Schedule NOW
+                    <button
+                      onClick={() => navigte("/contact-us")}
+                      className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"
+                    >
+                      Schedule NOW
                     </button>
                   </div>
                 </div>
               </div>
-
-
-
-
-              
             </div>
           </div>
         </div>
