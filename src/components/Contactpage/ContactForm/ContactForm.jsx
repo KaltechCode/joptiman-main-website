@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React, { useState } from "react";
+
 import axios from "axios";
 import { toast } from "react-toastify";
 import CircularProgress from "@mui/material/CircularProgress";
@@ -94,7 +95,7 @@ export const ContactForm = () => {
                   <input
                     className="bg-[#fff] placeholder:text-[#767676] w-full px-4 py-3 font-[400] font-secondaryFont text-base"
                     type="text"
-                    placeholder="Enter Subject*"
+                    placeholder="Subject*"
                     id="subject"
                     name="subject"
                     value={contactInfo.subject}
