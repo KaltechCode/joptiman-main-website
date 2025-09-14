@@ -6,7 +6,6 @@ import { AboutInfo } from "../components/AboutusPage/AboutInfo/AboutInfo";
 import { OurPartnersSection } from "../components/Homepage/OurPartners/OurPartnersSection";
 import { WhyChooseus } from "../components/AboutusPage/WhyChooseus/WhyChooseus";
 import { CoreValues } from "../components/AboutusPage/CoreValues/CoreValues";
-import { SteperFormSection } from "../components/AgentRegistrationPage/SteperFormSection/SteperFormSection";
 import { Whychooseus2 } from "../components/AboutusPage/Whychooseus2/Whychooseus2";
 import { OurTeam } from "../components/AboutusPage/OurTeam/OurTeam";
 
@@ -34,7 +33,6 @@ export const AboutPage = () => {
         </div>
         <SteperFormSection />
       </div> */}
-
 
       <OurPartnersSection />
       <OurTeam />
