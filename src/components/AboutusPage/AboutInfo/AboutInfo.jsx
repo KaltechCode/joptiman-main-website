@@ -29,7 +29,7 @@ export const AboutInfo = () => {
                 Planning, College Funding, and Final Expense Protection
               </strong>
               . Every service we deliver is built on the core principles of
-              <strong>trust, transparency, and long-term value</strong>,
+              <strong> trust, transparency, and long-term value</strong>,
               ensuring that individuals, families, and businesses can secure
               their financial futures with confidence.
             </p>
@@ -92,7 +92,8 @@ export const AboutInfo = () => {
                 not only to succeed individually, but also to contribute to a
                 thriving, compliant, and client-first agency culture.
               </p>
-              <p className="font-secondaryFont font-[400] text-[#767676] text-base">
+              
+              {/* <p className="font-secondaryFont font-[400] text-[#767676] text-base">
                 At JOptiman Consultancy, our mission is clear: <br />
                 <strong>Empower agents to grow.</strong> <br />
                 <strong>
@@ -103,7 +104,7 @@ export const AboutInfo = () => {
                 <strong>
                   Promote health and wellness through financial empowerment.
                 </strong>
-              </p>
+              </p> */}
 
               <button
                 onClick={() => router("/agent-registration")}

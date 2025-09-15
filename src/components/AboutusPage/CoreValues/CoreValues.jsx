@@ -31,13 +31,25 @@ export const CoreValues = () => {
                     </h3>
                   </div>
                   <div className="flex justify-center items-center py-5 px-5 bg-white">
-                    <p className="text-paraColor font-secondaryFont font-[400] text-base">
+                    {/* <p className="text-paraColor font-secondaryFont font-[400] text-base">
                       Our mission is to help provide financial professionals
                       with empowering optimal managerial skills and real
                       successful entrepreneurial mindset to build and grow their
                       business as they strive to provide the most trusted
                       financial consultations to a diverse clientele.
-                    </p>
+                    </p> */}
+                    <p className="text-paraColor font-secondaryFont font-[400] text-base">
+                At JOptiman Consultancy, our mission is clear: <br />
+                <strong>Empower agents to grow.</strong> <br />
+                <strong>
+                  Equip clients to take control of their finances in ways they
+                  never imagined possible.{" "}
+                </strong>
+                <br />
+                <strong>
+                  Promote health and wellness through financial empowerment.
+                </strong>
+              </p> 
                   </div>
                 </div>
                 <div className="w-full flex flex-col justify-center items-center">
@@ -77,18 +89,13 @@ export const CoreValues = () => {
                         Trust
                       </li>
                       <li className="text-base font-secondaryFont font-[500] list-disc">
-                        Faith
+                        Transparency
                       </li>
 
                       <li className="text-base font-secondaryFont font-[500] list-disc">
-                        Hope
+                        Long Term Value
                       </li>
-                      <li className="text-base font-secondaryFont font-[500] list-disc">
-                        Love
-                      </li>
-                      <li className="text-base font-secondaryFont font-[500] list-disc">
-                        Peace Of Mind
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
