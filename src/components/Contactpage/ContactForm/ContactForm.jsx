@@ -65,7 +65,7 @@ export const ContactForm = () => {
               </h3>
             </div>
             <div className="w-full flex flex-col gap-4">
-              <div className="flex flex-col 2xl:flex-row xl:flex-row lg:flex-row 4k:flex-row md:portrait:flex-row  justify-between items-center gap-4">
+              {/* <div className="flex flex-col 2xl:flex-row xl:flex-row lg:flex-row 4k:flex-row md:portrait:flex-row  justify-between items-center gap-4">
                 <div className="flex-1 w-full">
                   <input
                     className="bg-[#fff] placeholder:text-[#767676] w-full px-4 py-3 font-[400] font-secondaryFont text-base"
@@ -134,7 +134,53 @@ export const ContactForm = () => {
                     <>Send Message</>
                   )}
                 </button>
-              </div>
+              </div> */}
+
+              {/* <iframe
+                src="https://links.joptiman.com/widget/form/DcSNuabnhYuJRnvOy544"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  border: "none",
+                  borderRadius: "4px",
+                }}
+                id="inline-DcSNuabnhYuJRnvOy544"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="JOPT | Form | Contact US"
+                data-height="undefined"
+                data-layout-iframe-id="inline-DcSNuabnhYuJRnvOy544"
+                data-form-id="DcSNuabnhYuJRnvOy544"
+                title="JOPT | Form | Contact US"
+              ></iframe> */}
+
+              <iframe
+                src="https://links.joptiman.com/widget/form/p4GA2ewOR6Lfh8unh9vb"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  border: "none",
+                  borderRadius: "4px",
+                }}
+                id="inline-p4GA2ewOR6Lfh8unh9vb"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="JOPT Contact US - Update"
+                data-height="893"
+                data-layout-iframe-id="inline-p4GA2ewOR6Lfh8unh9vb"
+                data-form-id="p4GA2ewOR6Lfh8unh9vb"
+                title="JOPT Contact US - Update"
+              ></iframe>
             </div>
           </div>
         </div>

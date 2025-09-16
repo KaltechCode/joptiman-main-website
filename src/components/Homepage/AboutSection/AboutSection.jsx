@@ -683,7 +683,6 @@ export const AboutSection = () => {
                         Why Join Our team of financial consultants?{" "}
                       </p>
                     </div>
-                   
                   </div>
                 </div>
 
@@ -778,7 +777,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="flex justify-between items-center 2xl:flex-row xl:flex-row lg:flex-row md:portrait:flex-row flex-col mt-2 2xl:w-[80%] xl:w-[80%] lg:w-[80%] md:portrait:w-[90%] 5k:w-[80%] w-full gap-5 2xl:gap-0 xl:gap-0 lg:gap-0 md:portrait:gap-0 5k:gap-0">
-                  <button onClick={()=>navigate('/about')} className="bg-secondaryColor button text-white px-6 py-2 rounded-lg text-base font-[400] font-secondaryFont w-full 2xl:w-auto xl:w-auto lg:w-auto md:portrait:w-auto 5k:w-auto    ">
+                  <button
+                    onClick={() => navigate("/about")}
+                    className="bg-secondaryColor button text-white px-6 py-2 rounded-lg text-base font-[400] font-secondaryFont w-full 2xl:w-auto xl:w-auto lg:w-auto md:portrait:w-auto 5k:w-auto    "
+                  >
                     Discover More
                   </button>
                   <div className="flex justify-center items-center gap-3">
@@ -812,8 +814,11 @@ export const AboutSection = () => {
                       <p className="text-[#767676] text-[14px] font-[400] font-secondaryFont">
                         Call Us Free
                       </p>
-                      <Link to='tel:+1 (469) -823 -1490' className="text-[#040B1E] font-[700] font-secondaryFont text-[15px]">
-                        +1 (469) -823 -1490
+                      <Link
+                        to="tel:+1 (888) 491-7757"
+                        className="text-[#040B1E] font-[700] font-secondaryFont text-[15px]"
+                      >
+                        +1 (888) 491-7757
                       </Link>
                     </div>
                   </div>
