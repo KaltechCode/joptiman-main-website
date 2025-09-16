@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProtectingBusiness.css";
 import HealthInsuranceImg2 from "../../../assets/HealthInsuranceImg2.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const ProtectingBusiness = () => {
   const navigte = useNavigate();
@@ -48,19 +48,22 @@ export const ProtectingBusiness = () => {
 
                   <div className="flex-1 py-7 2xl:px-8 xl:px-8 lg:px-5 md:portrait:px-2 4k:px-8 3k:px-8 flex justify-around items-center">
                     <div className="flex-shrink-0">
-                      <p className="text-right text-[#767676] font-secondaryFont font-[500] 2xl:text-lg xl:text-lg lg:text-base md:portrait:sm 4k:text-lg 3k:text-lg">
-                        Schedule a{" "}
-                      </p>
+                      <p className="text-right text-[#767676] font-secondaryFont font-[500] 2xl:text-lg xl:text-lg lg:text-base md:portrait:sm 4k:text-lg 3k:text-lg"></p>
                       <h3 className="2xl:text-2xl xl:text-2xl lg:text-xl md:portrait:text-lg 4k:text-2xl 3k:text-2xl font-[700] font-mainFont text-[#00204A]">
                         <span className="text-[#F08613]">Free</span> assessment
                       </h3>
                     </div>
-                    <button
-                      onClick={() => navigte("/contact-us")}
+                    <Link
+                      onClick={() =>
+                        navigte(
+                          "https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
+                        )
+                      }
+                      target="_blank"
                       className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"
                     >
-                      Schedule NOW
-                    </button>
+                      Assess NOW
+                    </Link>
                   </div>
                 </div>
               </div>

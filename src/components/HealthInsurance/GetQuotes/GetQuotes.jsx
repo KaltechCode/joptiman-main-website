@@ -1,6 +1,6 @@
 import React from "react";
 import "./GetQuotes.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const GetQuotes = ({ label, contentOne, contentTwo, contentThree }) => {
   const navigate = useNavigate();
@@ -51,12 +51,17 @@ export const GetQuotes = ({ label, contentOne, contentTwo, contentThree }) => {
                   </p>
                 </div>
                 <div>
-                  <button
-                    onClick={() => navigate("/contact-us")}
+                  <Link
+                    onClick={() =>
+                      navigate(
+                        "https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
+                      )
+                    }
+                    target="_blank"
                     className="bg-[#F08613] py-3 px-6  rounded-md text-white font-secondaryFont font-[500] text-base uppercase"
                   >
-                    GET intouch today
-                  </button>
+                    GET in touch today
+                  </Link>
                 </div>
               </div>
             </div>
