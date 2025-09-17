@@ -54,13 +54,9 @@ export const ProtectingBusiness = () => {
                       </h3>
                     </div>
                     <Link
-                      onClick={() =>
-                        navigte(
-                          "https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
-                        )
-                      }
+                      to="https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
                       target="_blank"
-                      className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"
+                      className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg cursor-pointer"
                     >
                       Assess NOW
                     </Link>

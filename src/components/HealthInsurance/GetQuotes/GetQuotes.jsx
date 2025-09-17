@@ -1,9 +1,8 @@
 import React from "react";
 import "./GetQuotes.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const GetQuotes = ({ label, contentOne, contentTwo, contentThree }) => {
-  const navigate = useNavigate();
   return (
     <>
       <div className="2xl:min-h-[60dvh] xl:min-h-[60dvh] lg:min-h-[60dvh] md:portrait:min-h-[50dvh] lg:portrait:min-h-[60dvh] min-h-[80dvh] 4k:min-h-[30dvh] 3k:min-h-[35dvh] flex justify-start items-center 2xl:py-20 xl:py-20  4k:py-24 3k:py-20 md:portrait:py-16 lg:py-28 py-20 4k:pb-36 3k:pb-32 xl:pb-32 lg:pb-32 md:portrait:pb-32 2xl:pb-32 pb-40">
@@ -52,11 +51,7 @@ export const GetQuotes = ({ label, contentOne, contentTwo, contentThree }) => {
                 </div>
                 <div>
                   <Link
-                    onClick={() =>
-                      navigate(
-                        "https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
-                      )
-                    }
+                    to="https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
                     target="_blank"
                     className="bg-[#F08613] py-3 px-6  rounded-md text-white font-secondaryFont font-[500] text-base uppercase"
                   >
