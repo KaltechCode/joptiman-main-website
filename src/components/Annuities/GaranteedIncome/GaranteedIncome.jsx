@@ -1,6 +1,6 @@
 import React from "react";
 import AnnuitiesImg2 from "../../../assets/AnnuitiesImg2.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const GaranteedIncome = () => {
   const navigte = useNavigate();
@@ -54,12 +54,12 @@ export const GaranteedIncome = () => {
                         <span className="text-[#F08613]">Free</span> assessment
                       </h3>
                     </div>
-                    <button
-                      onClick={() => navigte("/contact-us")}
+                    <Link
+                      to="https://links.joptiman.com/widget/bookings/jopt-consultation"
                       className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"
                     >
                       Schedule NOW
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

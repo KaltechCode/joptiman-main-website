@@ -31,6 +31,7 @@ export const HealthInsurance = () => {
         contentThree="Protect your loved ones and secure their future with our
                       comprehensive health insurance policies that suit your
                       needs and give you peace of mind."
+        link="https://www.healthsherpa.com/?_agent_id=JOptiman-Consultancy-trbdvq"
       />
       <Footer />
     </>

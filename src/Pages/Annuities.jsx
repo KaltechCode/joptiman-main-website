@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "../components/common/Navbar/Navbar";
 import { Footer } from "../components/common/Footer/Footer";
 import { GetQuotes } from "../components/HealthInsurance/GetQuotes/GetQuotes";
@@ -18,7 +18,13 @@ export const Annuities = () => {
       <GaranteedIncome />
       <WaysToAssists />
       <AnnuitiesService />
-      <GetQuotes label='annuities' contentOne='Whether you want to protect your savings from market volatility, we offer tailored annuity solutions that meet your unique needs' contentTwo='Contact us today to learn more about annuities.' contentThree='Protect your loved ones and secure their future with our comprehensive annuities solutions.' />
+      <GetQuotes
+        label="annuities"
+        contentOne="Whether you want to protect your savings from market volatility, we offer tailored annuity solutions that meet your unique needs"
+        contentTwo="Contact us today to learn more about annuities."
+        contentThree="Protect your loved ones and secure their future with our comprehensive annuities solutions."
+        link="/contact-us"
+      />
       <Footer />
     </>
   );

@@ -24,6 +24,7 @@ export const LifeInsurance = () => {
         contentOne="Our life insurance services are designed to provide you with the coverage you need to protect your loved ones while building a lasting legacy. Our life insurance services are designed to provide you with the coverage you need to protect your loved ones while building a lasting legacy."
         contentTwo="Contact us today to learn more about how we can help you find the right life insurance coverage for your needs."
         contentThree="Contact us today to learn more about how we can help you navigate the complexities of life insurance policies and find the right coverage for your needs."
+        link="/contact-us"
       />
       <Footer />
     </>

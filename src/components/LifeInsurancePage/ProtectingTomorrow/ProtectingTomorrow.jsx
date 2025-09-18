@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./ProtectingTomorrow.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import LifeInsuranceImg2 from "../../../assets/LifeInsuranceImg2.png";
 import PlayIconImg from "../../../assets/PlayIcon.png";
 
@@ -102,12 +102,15 @@ export const ProtectingTomorrow = () => {
                         <span className="text-[#F08613]">Free</span> assessment
                       </h3>
                     </div>
-                    <button
-                      onClick={() => navigte("/contact-us")}
+                    <Link
+                      to={
+                        "https://links.joptiman.com/widget/bookings/jopt-consultation"
+                      }
+                      target="_blank"
                       className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"
                     >
                       Schedule NOW
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
