@@ -53,7 +53,7 @@ export const ContactSection = () => {
         email: "",
         phoneNumber: "",
         message: "",
-      })
+      });
     } catch (error) {
       console.error(error);
     }
@@ -219,8 +219,7 @@ export const ContactSection = () => {
                 {currentTab}
               </h2>
 
-              <form className="my-4 w-full flex flex-col justify-start items-start gap-4">
-                <div className="w-full">
+              {/* <div className="w-full">
                   <input
                     className="bg-[#F4F4F4] placeholder:text-[#767676] w-full px-4 py-3 font-[400] font-secondaryFont text-base"
                     type="text"
@@ -273,8 +272,87 @@ export const ContactSection = () => {
                   className="text-mainColor button bg-[#0C0544] px-4 py-2.5 rounded-lg font-secondaryFont font-[400] uppercase disabled:cursor-not-allowed disabled:opacity-40 disabled:pointer-events-none"
                 >
                   GET YOUR QUOTE
-                </button>
-              </form>
+                </button> */}
+
+              {currentTab.toLowerCase() === "life insurance" && (
+                <div className="my-4 w-full">
+                  <iframe
+                    src="https://links.joptiman.com/widget/form/ERsqe2sUF7jUqMcMSjpW"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      border: "none",
+                      borderRadius: "4px",
+                    }}
+                    id="inline-ERsqe2sUF7jUqMcMSjpW"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="JOPT Life Insurance - Website"
+                    data-height="567"
+                    data-layout-iframe-id="inline-ERsqe2sUF7jUqMcMSjpW"
+                    data-form-id="ERsqe2sUF7jUqMcMSjpW"
+                    title="JOPT Life Insurance - Website"
+                  ></iframe>
+                </div>
+              )}
+
+              {currentTab.toLowerCase() === "health insurance" && (
+                <div className="my-4 w-full ">
+                  <iframe
+                    src="https://links.joptiman.com/widget/form/aCP3wu0BSlYTCNB8lf5o"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      border: "none",
+                      borderRadius: "4px",
+                    }}
+                    id="inline-aCP3wu0BSlYTCNB8lf5o"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="JOPT Health Insurance Contact Form - Website"
+                    data-height="undefined"
+                    data-layout-iframe-id="inline-aCP3wu0BSlYTCNB8lf5o"
+                    data-form-id="aCP3wu0BSlYTCNB8lf5o"
+                    title="JOPT Health Insurance Contact Form - Website"
+                  ></iframe>
+                </div>
+              )}
+              {currentTab.toLowerCase() === "annuities" && (
+                <div className="my-4 w-full">
+                  <iframe
+                    src="https://links.joptiman.com/widget/form/WD0asHTrhUN8Mkj2hHVu"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      border: "none",
+                      borderRadius: "4px",
+                    }}
+                    id="inline-WD0asHTrhUN8Mkj2hHVu"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="JOPT Annuities Contact Form - Website"
+                    data-height="undefined"
+                    data-layout-iframe-id="inline-WD0asHTrhUN8Mkj2hHVu"
+                    data-form-id="WD0asHTrhUN8Mkj2hHVu"
+                    title="JOPT Annuities Contact Form - Website"
+                  ></iframe>
+                </div>
+              )}
             </div>
           </div>
         </div>
