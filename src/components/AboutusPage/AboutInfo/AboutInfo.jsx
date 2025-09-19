@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import AboutInfoBg from "../../../assets/AboutInfoBg.png";
 import AboutInfoImg1 from "../../../assets/AboutInfoImg1.png";
 import AboutInfoImg2 from "../../../assets/AboutInfoImg2.png";
@@ -92,7 +92,7 @@ export const AboutInfo = () => {
                 not only to succeed individually, but also to contribute to a
                 thriving, compliant, and client-first agency culture.
               </p>
-              
+
               {/* <p className="font-secondaryFont font-[400] text-[#767676] text-base">
                 At JOptiman Consultancy, our mission is clear: <br />
                 <strong>Empower agents to grow.</strong> <br />
@@ -106,12 +106,13 @@ export const AboutInfo = () => {
                 </strong>
               </p> */}
 
-              <button
-                onClick={() => router("/agent-registration")}
+              <Link
+                to="https://links.joptiman.com/widget/form/ziWPHtzQiDL1oa5rlRcu"
+                target="_blank"
                 className="bg-secondaryColor button text-mainColor 2xl:px-5 xl:px-5 lg:px-4 2xl:py-3 xl:py-3 lg:py-2 md:portrait:px-5 md:portrait:py-2 px-5 py-2 rounded-lg 2xl:text-[15px] xl:text-[15px] lg:text-[13px] md:portrait:text-[13px] text-[13px]  font-secondaryFont font-[700] uppercase mt-10"
               >
                 join our team
-              </button>
+              </Link>
             </div>
           </div>
         </div>

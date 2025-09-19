@@ -115,7 +115,8 @@ export const Footer = () => {
                 <ul className="flex flex-col justify-start items-start gap-3 my-3">
                   <li>
                     <Link
-                      to="/agent-registration"
+                      to="https://links.joptiman.com/widget/form/ziWPHtzQiDL1oa5rlRcu"
+                      target="_blank"
                       className="text-base font-[400] font-secondaryFont text-[#ABAFB5]"
                     >
                       Join us
