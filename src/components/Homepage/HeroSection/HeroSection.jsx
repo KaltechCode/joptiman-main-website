@@ -7,6 +7,7 @@ import HeroShape2 from "../../../assets/HeroShape2.png";
 import HeroShape3 from "../../../assets/HeroShape3.png";
 import "./HeroSection.css";
 import { Link, useNavigate } from "react-router-dom";
+import { joinOurTeamLink } from "../../../util/constant";
 
 const sliderImgs = [HeroSliderImg1, HeroSliderImg2, HeroSliderImg3];
 
@@ -75,9 +76,7 @@ export const HeroSection = () => {
                   Pride!
                 </p>
                 <Link
-                  to={
-                    "https://links.joptiman.com/widget/form/ziWPHtzQiDL1oa5rlRcu"
-                  }
+                  to={joinOurTeamLink}
                   target="_blank"
                   className="bg-secondaryColor button text-mainColor 2xl:px-5 xl:px-5 lg:px-4 2xl:py-3 xl:py-3 lg:py-2 md:portrait:px-5 md:portrait:py-2 px-5 py-2 rounded-lg 2xl:text-[15px] xl:text-[15px] lg:text-[13px] md:portrait:text-[13px] text-[13px]  font-secondaryFont font-[700] uppercase"
                 >

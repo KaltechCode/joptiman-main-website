@@ -104,7 +104,7 @@ export const ProtectingTomorrow = () => {
                     </div>
                     <Link
                       to={
-                        "https://links.joptiman.com/widget/bookings/jopt-consultation"
+                        "https://links.joptimanconsultancy.com/widget/bookings/jopt-consultation"
                       }
                       target="_blank"
                       className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"

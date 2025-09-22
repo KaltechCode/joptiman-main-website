@@ -4,6 +4,7 @@ import AboutInfoBg from "../../../assets/AboutInfoBg.png";
 import AboutInfoImg1 from "../../../assets/AboutInfoImg1.png";
 import AboutInfoImg2 from "../../../assets/AboutInfoImg2.png";
 import AboutImgNew3 from "../../../assets/AboutImgNew3.jpg";
+import { joinOurTeamLink } from "../../../util/constant";
 
 export const AboutInfo = () => {
   const router = useNavigate();
@@ -107,7 +108,7 @@ export const AboutInfo = () => {
               </p> */}
 
               <Link
-                to="https://links.joptiman.com/widget/form/ziWPHtzQiDL1oa5rlRcu"
+                to={joinOurTeamLink}
                 target="_blank"
                 className="bg-secondaryColor button text-mainColor 2xl:px-5 xl:px-5 lg:px-4 2xl:py-3 xl:py-3 lg:py-2 md:portrait:px-5 md:portrait:py-2 px-5 py-2 rounded-lg 2xl:text-[15px] xl:text-[15px] lg:text-[13px] md:portrait:text-[13px] text-[13px]  font-secondaryFont font-[700] uppercase mt-10"
               >

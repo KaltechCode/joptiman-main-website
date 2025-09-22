@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { joinOurTeamLink } from "../../../util/constant";
 
 export const Footer = () => {
   return (
@@ -115,7 +116,7 @@ export const Footer = () => {
                 <ul className="flex flex-col justify-start items-start gap-3 my-3">
                   <li>
                     <Link
-                      to="https://links.joptiman.com/widget/form/ziWPHtzQiDL1oa5rlRcu"
+                      to={joinOurTeamLink}
                       target="_blank"
                       className="text-base font-[400] font-secondaryFont text-[#ABAFB5]"
                     >

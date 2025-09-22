@@ -55,7 +55,7 @@ export const GaranteedIncome = () => {
                       </h3>
                     </div>
                     <Link
-                      to="https://links.joptiman.com/widget/bookings/jopt-consultation"
+                      to="https://links.joptimanconsultancy.com/widget/bookings/jopt-consultation"
                       className="uppercase text-white font-secondaryFont font-[600] bg-[#1A73E9] text-base px-6 py-3 rounded-lg"
                     >
                       Schedule NOW
