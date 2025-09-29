@@ -8,6 +8,9 @@ export const GetQuotes = ({
   contentTwo,
   contentThree,
   link,
+
+  btnLabel,
+  toLink,
 }) => {
   return (
     <>
@@ -57,11 +60,11 @@ export const GetQuotes = ({
                 </div>
                 <div>
                   <Link
-                    to={link}
+                    to={toLink ? toLink : link}
                     target="_blank"
                     className="bg-[#F08613] py-3 px-6  rounded-md text-white font-secondaryFont font-[500] text-base uppercase"
                   >
-                    GET in touch today
+                    {btnLabel ? btnLabel : "GET in touch today"}
                   </Link>
                 </div>
               </div>

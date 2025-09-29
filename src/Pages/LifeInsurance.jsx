@@ -9,6 +9,7 @@ import { ProtectingTomorrow } from "../components/LifeInsurancePage/ProtectingTo
 import { WaysToAssists } from "../components/LifeInsurancePage/WaysToAssist/WaysToAssist";
 
 export const LifeInsurance = () => {
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
@@ -25,6 +26,8 @@ export const LifeInsurance = () => {
         contentTwo="Contact us today to learn more about how we can help you find the right life insurance coverage for your needs."
         contentThree="Contact us today to learn more about how we can help you navigate the complexities of life insurance policies and find the right coverage for your needs."
         link="/contact-us"
+        toLink="https://www.joptiman.com/life-insurance-qoute"
+        btnLabel="Get Your Quote"
       />
       <Footer />
     </>
