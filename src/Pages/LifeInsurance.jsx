@@ -26,7 +26,7 @@ export const LifeInsurance = () => {
         contentTwo="Contact us today to learn more about how we can help you find the right life insurance coverage for your needs."
         contentThree="Contact us today to learn more about how we can help you navigate the complexities of life insurance policies and find the right coverage for your needs."
         link="/contact-us"
-        toLink="https://www.joptiman.com/life-insurance-qoute"
+        toLink="https://www.joptiman.com/life-insurance-quote"
         btnLabel="Get Your Quote"
       />
       <Footer />
