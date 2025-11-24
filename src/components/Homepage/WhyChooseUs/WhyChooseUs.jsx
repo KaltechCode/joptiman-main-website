@@ -6,7 +6,7 @@ import "./WhyChooseUs.css";
 
 export const WhyChooseUs = () => {
   return (
-    <div className="min-h-[100dvh pb-28 bg-white flex justify-center items-center pt-10 md:portrait:py-16 3k:py-28 4k:py-28  4k:pt-16 3k:pt-20">
+    <div className="h-[min(100dvh,920px)] pb-28 bg-white flex justify-center items-center pt-10 md:portrait:py-16 3k:py-28 4k:py-28  4k:pt-16 3k:pt-20">
       <div className="max-w-[1920px] mx-auto w-full">
         <div className="w-[95%] mx-auto  flex justify-center items-cente gap-5">
           <div className="flex-1 2xl:flex xl:flex lg:flex md:portrait:hidden hidden justify-center ">

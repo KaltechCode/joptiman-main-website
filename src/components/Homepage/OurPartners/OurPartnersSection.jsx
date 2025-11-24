@@ -32,7 +32,7 @@ const partnersSlider = [
 export const OurPartnersSection = () => {
   return (
     <>
-      <div className="2xl:h-[50dvh] xl:h-[50dvh] lg:h-[50dvh] md:portrait:h-[30dvh] h-[30dvh] 5k:h-[20dvh] 4k:h-[25dvh] 3k:h-[30dvh]  relative flex justify-center items-center">
+      <div className="2xl:min-h-[min(30dvh,720px)] xl:min-h-[min(30dvh,720px)] lg:min-h-[min(30dvh,720px)] md:portrait:min-h-[min(30dvh,720px)] h-[min(30dvh, 720px)] 5k:min-h-[min(20dvh, 720px)] 4k:min-h-[min(25dvh, 720px)] 3k:min-h-[min(30dvh, 720px)]  relative flex justify-center items-center">
         <div className="absolute top-0 left-0 w-full h-full">
           <img
             src={PartnerSecBg}

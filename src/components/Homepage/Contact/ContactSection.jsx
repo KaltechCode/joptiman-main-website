@@ -59,7 +59,7 @@ export const ContactSection = () => {
     }
   };
   return (
-    <div className="2xl:min-h-[85dvh] xl:min-h-[80dvh] lg:min-h-[80dvh] md:portrait:min-h-[40dvh] 4k:min-h-[70dvh] 3k:min-h-[70dvh] relative h-full flex justify-center items-center bg-[#F5F5F8] py-4">
+    <div className="2xl:min-h-[min(80dvh, 1200px)] xl:min-h-[min(auto, 1200px)] lg:min-h-[80dvh,] md:portrait:min-h-[40dvh] 4k:min-h-[70dvh] 3k:min-h-[70dvh] relative h-full flex justify-center items-center bg-[#F5F5F8] py-4">
       <img
         alt="shape-bg"
         src={AboutShape2}

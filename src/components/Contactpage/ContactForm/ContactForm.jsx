@@ -55,7 +55,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="2xl:min-h-[70dvh] xl:min-h-[70dvh] lg:min-h-[70dvh] md:portrait:min-h-[40dvh] 4k:min-h-[40dvh] 3k:min-h-[40dvh] flex justify-center items-center md:portrait:py-8 4k:py-24 3k:py-28 xl:py-28">
+    <div className="2xl:min-h-[min(70dvh,920px)] xl:min-h-[min(70dvh,920px)] lg:min-h-[min(70dvh,920px)] md:portrait:min-h-[40dvh] 4k:min-h-[40dvh] 3k:min-h-[40dvh] flex justify-center items-center md:portrait:py-8 4k:py-24 3k:py-28 xl:py-28">
       <div className="max-w-[1920px] mx-auto flex justify-center items-center w-full">
         <div className="flex justify-center items-center 2xl:w-[90%] xl:w-[90%] lg:w-[90%] md:portrait:w-[90%] 4k:w-[90%] w-[95%]">
           <div className="bg-[#F5F5F8] customShadow  2xl:w-[80%] xl:w-[90%] lg:w-[70%] 4k:w-[80%] md:portrait:w-[85%] w-[95%] 2xl:p-12 xl:p-10 lg:p-4  md:portrait:p-5 p-3 4k:p-16 shadow-sm rounded-lg flex justify-start items-start flex-col gap-3">

@@ -7,7 +7,7 @@ import OurProcessShape1 from "../../../assets/OurProcessShape1.png";
 
 export const OurProcess = () => {
   return (
-    <div className="2xl:min-h-[55dvh] xl:min-h-[55dvh] lg:min-h-[55dvh] md:portrait:min-h-[55dvh] min-h-[55dvh] 5k:min-h-[30dvh] 4k:min-h-[45dvh] 3k:min-h-[45dvh] relative flex justify-center items-center py-8">
+    <div className="2xl:min-h-[min(55dvh,768px)] xl:min-h-[min(55dvh,768px)] lg:min-h-[min(55dvh,768px)] md:portrait:min-h-[55dvh] min-h-[55dvh] 5k:min-h-[min(30dvh,768px)]  3k:min-h-[min(45dvh,768px)] relative flex justify-center items-center py-8">
       <div className="absolute top-0 left-0 w-full h-full">
         <img src={OurProcessBg} alt="OurProcessBg" className="w-full h-full" />
       </div>

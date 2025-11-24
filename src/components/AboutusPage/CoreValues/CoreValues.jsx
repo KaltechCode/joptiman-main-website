@@ -4,7 +4,7 @@ import "./CoreValues.css";
 export const CoreValues = () => {
   return (
     <>
-      <div className="2xl:min-h-[90dvh] xl:min-h-[90dvh] lg:min-h-[90dvh] md:portrait:min-h-[90dvh] lg:portrait:min-h-[90dvh] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
+      <div className="2xl:min-h-[min(90dvh,920px)] xl:min-h-[min(90dvh,920px)] lg:min-h-[min(90dvh,920px)] md:portrait:min-h-[90dvh] lg:portrait:min-h-[min(90dvh,920px)] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col gap-8 customShadowCoreValue 2xl:p-10 xl:p-10 lg:p-10 md:portrait:p-10 4k:p-10 3k:p-10 p-5 rounded-lg">
             <div className="flex-1 w-full flex flex-col gap-10">
@@ -39,17 +39,18 @@ export const CoreValues = () => {
                       financial consultations to a diverse clientele.
                     </p> */}
                     <p className="text-paraColor font-secondaryFont font-[400] text-base">
-                At JOptiman Consultancy, our mission is clear: <br />
-                <strong>Empower agents to grow.</strong> <br />
-                <strong>
-                  Equip clients to take control of their finances in ways they
-                  never imagined possible.{" "}
-                </strong>
-                <br />
-                <strong>
-                  Promote health and wellness through financial empowerment.
-                </strong>
-              </p> 
+                      At JOptiman Consultancy, our mission is clear: <br />
+                      <strong>Empower agents to grow.</strong> <br />
+                      <strong>
+                        Equip clients to take control of their finances in ways
+                        they never imagined possible.{" "}
+                      </strong>
+                      <br />
+                      <strong>
+                        Promote health and wellness through financial
+                        empowerment.
+                      </strong>
+                    </p>
                   </div>
                 </div>
                 <div className="w-full flex flex-col justify-center items-center">
@@ -95,7 +96,6 @@ export const CoreValues = () => {
                       <li className="text-base font-secondaryFont font-[500] list-disc">
                         Long Term Value
                       </li>
-                      
                     </ul>
                   </div>
                 </div>

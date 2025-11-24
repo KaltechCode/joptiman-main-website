@@ -27,7 +27,7 @@ export const HeroSection = () => {
   }, []);
   return (
     <>
-      <div className="2xl:h-[70dvh] xl:h-[70dvh] lg:h-[100dvh] md:portrait:h-[50dvh] 5k:h-[60dvh] h-[70dvh] bg-paraColor/10  mx-auto w-full relative">
+      <div className="2xl:min-h-[min(70dvh,768px)] xl:min-h-[min(70dvh,768px)] lg:min-h-[min(100dvh,768px)] md:portrait:h-[50dvh] 5k:min-h-[min(100dvh,768px)] hmin--[min(70dvh,720px] bg-paraColor/10  mx-auto w-full relative">
         <img
           src={HeroShape1}
           alt="HeroShape1"

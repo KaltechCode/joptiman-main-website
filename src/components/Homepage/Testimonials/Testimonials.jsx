@@ -86,10 +86,9 @@ export const Testimonials = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-
   return (
     <>
-      <div className="2xl:min-h-[60vh] xl:min-h-[60vh] lg:min-h-[60vh] 5k:min-h-[25vh] 4k:min-h-[45vh] 3k:min-h-[40vh] py-3 relative flex justify-center items-center">
+      <div className="2xl:min-h-[min(60dvh,920px)] xl:min-h-[min(60dvh,920px)] lg:min-h-[min(60dvh,920px)] 5k:min-h-[min(25dvh,720px)] 4k:min-h-[min(45dvh,920px)] 3k:min-h-[min(40dvh,920px)] py-3 relative flex justify-center items-center">
         <div className="absolute -top-[20%] right-0  w-full flex justify-end">
           <img
             src={TestimonialsBgImg}

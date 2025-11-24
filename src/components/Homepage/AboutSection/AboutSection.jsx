@@ -320,7 +320,7 @@ export const AboutSection = () => {
   }, [isInView, animationCounter]);
   return (
     <>
-      <div className="relative w-full 2xl:min-h-[100dvh] xl:min-h-[100dvh] lg:min-h-[50dvh] 5k:min-h-[40dvh] 4k:min-h-[45dvh] 3k:min-h-[55dvh]  flex justify-center items-center 2xl:py-10 xl:py-10 lg:py-10 md:portrait:py-10 py-10 4k:py-16 ">
+      <div className="relative w-full 2xl:min-h-[min(100dvh,920px)] xl:min-h-[min(100dvh,920px)] lg:min-h-[min(500dvh,720px)] 5k:min-h-[min(40dvh,920px)] 4k:min-h-[min(45dvh,720px)] 3k:min-h-[min(55dvh,720px)]  flex justify-center items-center 2xl:py-10 xl:py-10 lg:py-10 md:portrait:py-10 py-10 4k:py-16 ">
         <div className="absolute top-[5%] 2xl:left-[15%] xl:left-[15%] lg:left-[15%] md:portrait:left-[15%] 4k:left-[15%] 3k:left-[15%] right-[15%]">
           <img
             className="2xl:h-14 xl:h-14 lg:h-14 md:portrait:h-14 4k:h-14 3k:h-14 h-8"

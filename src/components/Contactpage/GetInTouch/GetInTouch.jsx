@@ -5,7 +5,7 @@ import ContactImg from "../../../assets/ContactImg.png";
 export const GetInTouch = () => {
   return (
     <>
-      <div className="2xl:min-h-[70dvh] xl:min-h-[70dvh] lg:min-h-[70dvh] md:portrait:min-h-[50dvh] 4k:min-h-[40dvh] 3k:min-h-[40dvh]  flex justify-center items-center py-16">
+      <div className="2xl:min-h-[min(70dvh,920px)] xl:min-h-[min(70dvh,920px)] lg:min-h-[min(70dvh,920px)] md:portrait:min-h-[50dvh] 4k:min-h-[40dvh] 3k:min-h-[40dvh]  flex justify-center items-center py-16">
         <div className="max-w-[1920px] mx-auto flex justify-center items-center w-full">
           <div className="2xl:w-[70%] xl:w-[80%] lg:w-[85%] 4k:w-[70%] md:portrait:w-[80%] w-[90%] flex justify-between gap-5 flex-col md:portrait:flex-col 2xl:flex-row xl:flex-row lg:flex-row 4k:flex-row">
             <div className="flex-1 w-full ">

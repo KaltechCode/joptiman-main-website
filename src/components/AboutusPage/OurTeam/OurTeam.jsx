@@ -80,11 +80,11 @@ export const OurTeam = () => {
   }, []);
   return (
     <>
-      <div className="2xl:min-h-[100dvh] 4k:min-h-[80dvh] 3k:min-h-[85dvh] xl:min-h-[90dvh] lg:min-h-[90dvh] md:portrait:min-h-[90dvh] flex justify-start items-center 2xl:py-28 4k:py-28 3k:py-28 xl:py-28 md:portrait:py-28 py-20 bg-[#F5F5F8]">
+      <div className="2xl:min-h-[min(100dvh,920px)] 4k:min-h-[80dvh] 3k:min-h-[85dvh] xl:min-h-[min(90dvh,920px)] lg:min-h-[min(90dvh,920px)] md:portrait:min-h-[90dvh] flex justify-start items-center 2xl:py-28 4k:py-28 3k:py-28 xl:py-28 md:portrait:py-28 py-20 bg-[#F5F5F8]">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[80%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col  bg-[#040B1E] text-white 2xl:p-8 xl:p-8 4k:p-16 3k:p-14 md:portrait:p-8 p-4 rounded-lg">
             <div className="mx-auto 2xl:w-[65%] xl:w-[65%] lg:w-[75%] md:portrait:w-[85%] 4k:w-[65%] 3k:w-[65%] w-[95%] flex flex-col justify-center items-center gap-8">
-            {/*  <h4 className="text-[#F08613] font-secondaryFont font-[800] 2xl:text-base xl:text-base lg:text-base 3k:text-base 4k:text-base md:portrait:text-base text-sm uppercase">
+              {/*  <h4 className="text-[#F08613] font-secondaryFont font-[800] 2xl:text-base xl:text-base lg:text-base 3k:text-base 4k:text-base md:portrait:text-base text-sm uppercase">
                 OUR TEAM MEMBER
               </h4>*/}
               <div>

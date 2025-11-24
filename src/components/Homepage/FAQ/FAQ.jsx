@@ -14,9 +14,9 @@ const items = [
     title: "How much does JOptiman Consultants charge?",
     content: "You do not need to pay JOptiman Consultants for assistance.",
   },
-{
-  title: "How can I join JOptiman Consultancy Agency?",
-  content: `
+  {
+    title: "How can I join JOptiman Consultancy Agency?",
+    content: `
     <b>Our process is simple:</b>
     <ul>
       - You must have legal work authorization to work with JOptiman. <br />
@@ -25,8 +25,7 @@ const items = [
       - Welcome to the team!
     </ul>
   `,
-},
-
+  },
 
   {
     title: "What is the fee for joining JOptiman Consultancy?",
@@ -35,7 +34,6 @@ const items = [
   },
 ];
 
-
 export const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -43,7 +41,7 @@ export const FAQ = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <div className="py-8 5k:min-h-[25dvh]  2xl:min-h-[80dvh] 4k:min-h-[50dvh] 3k:min-h-[50dvh] xl:min-h-[70dvh] lg:min-h-[60dvh] md:portrait:min-h-[35dvh] flex justify-center items-center">
+    <div className="py-8 5k:min-h-[min(25dvh,768px)]  2xl:min-h-[min(90dvh,1020px)] 4k:min-h-[min(50dvh,920px)] 3k:min-h-[min(50dvh,920px)] xl:min-h-[min(100dvh,920px)] lg:min-h-[min(60dvh,920px)] md:portrait:min-h-[min(35dvh,720px)] flex justify-center items-center">
       <div className="max-w-[1920px] mx-auto relative z-20">
         <div className="w-[95%] mx-auto flex justify-center gap-4">
           <div className="flex-1 2xl:flex xl:flex lg:flex 5k:flex justify-center items-center md:portrait:hidden hidden">

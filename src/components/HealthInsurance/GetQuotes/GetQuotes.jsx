@@ -14,7 +14,7 @@ export const GetQuotes = ({
 }) => {
   return (
     <>
-      <div className="2xl:min-h-[60dvh] xl:min-h-[60dvh] lg:min-h-[60dvh] md:portrait:min-h-[50dvh] lg:portrait:min-h-[60dvh] min-h-[80dvh] 4k:min-h-[30dvh] 3k:min-h-[35dvh] flex justify-start items-center 2xl:py-20 xl:py-20  4k:py-24 3k:py-20 md:portrait:py-16 lg:py-28 py-20 4k:pb-36 3k:pb-32 xl:pb-32 lg:pb-32 md:portrait:pb-32 2xl:pb-32 pb-40">
+      <div className="2xl:min-h-[min(60dvh,920px)] xl:min-h-[min(60dvh,920px)] lg:min-h-[min(60dvh,920px)] md:portrait:min-h-[50dvh] lg:portrait:min-h-[min(60dvh,920px)] min-h-[80dvh] 4k:min-h-[30dvh] 3k:min-h-[35dvh] flex justify-start items-center 2xl:py-20 xl:py-20  4k:py-24 3k:py-20 md:portrait:py-16 lg:py-28 py-20 4k:pb-36 3k:pb-32 xl:pb-32 lg:pb-32 md:portrait:pb-32 2xl:pb-32 pb-40">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col gap-8  2xl:p-4 xl:p-4 lg:p-4 md:portrait:p-4 4k:p-4 3k:p-4 p-2 rounded-lg relative">
             <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 4k:grid-cols-2 3k:grid-cols-2 md:portrait:grid-cols-1 gap-5 w-full">

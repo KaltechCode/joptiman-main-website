@@ -17,7 +17,7 @@ export const WhyChooseus = () => {
   ];
 
   return (
-    <div className="2xl:min-h-[100dvh] xl:min-h-[100dvh] lg:min-h-[100dvh] md:portrait:min-h-[90dvh] 4k:min-h-[70dvh] 3k:min-h-[75dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
+    <div className="2xl:min-h-[min(100dvh,920px)] xl:min-h-[min(100dvh,920px)] lg:min-h-[min(100dvh,920px)] md:portrait:min-h-[min(90dvh,920px)] 4k:min-h-[70dvh] 3k:min-h-[75dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
       <div className="max-w-[1920px] mx-auto w-full">
         <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col gap-16">
           <div className="flex-1 w-full flex flex-col gap-10">
@@ -74,9 +74,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 0 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 0 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -98,9 +96,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 1 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 1 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -109,9 +105,7 @@ export const WhyChooseus = () => {
                     <li
                       onClick={() => setCurrentInfo1(2)}
                       className={`flex justify-start items-center gap-4 font-[700] font-mainFont 2xl:text-base xl:text-base lg:text-base lg:landscape:text-[14px] md:portrait:text-base text-base  ${
-                        currentInfo1 === 2
-                          ? "text-[#F08613]"
-                          : "text-white "
+                        currentInfo1 === 2 ? "text-[#F08613]" : "text-white "
                       } transition-all duration-200 ease-linear cursor-pointer`}
                     >
                       <span>
@@ -124,9 +118,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 2 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 2 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -135,9 +127,7 @@ export const WhyChooseus = () => {
                     <li
                       onClick={() => setCurrentInfo1(3)}
                       className={`flex justify-start items-center gap-4 font-[700] font-mainFont 2xl:text-base xl:text-base lg:text-base lg:landscape:text-[14px] md:portrait:text-base text-base  ${
-                        currentInfo1 === 3
-                          ? "text-[#F08613]"
-                          : "text-white "
+                        currentInfo1 === 3 ? "text-[#F08613]" : "text-white "
                       } transition-all duration-200 ease-linear cursor-pointer`}
                     >
                       <span>
@@ -150,9 +140,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 3 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 3 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -161,9 +149,7 @@ export const WhyChooseus = () => {
                     <li
                       onClick={() => setCurrentInfo1(4)}
                       className={`flex justify-start items-center gap-4 font-[700] font-mainFont 2xl:text-base xl:text-base lg:text-base lg:landscape:text-[14px] md:portrait:text-base text-base  ${
-                        currentInfo1 === 4
-                          ? "text-[#F08613]"
-                          : "text-white "
+                        currentInfo1 === 4 ? "text-[#F08613]" : "text-white "
                       } transition-all duration-200 ease-linear cursor-pointer`}
                     >
                       <span>
@@ -176,9 +162,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 4 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 4 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -201,9 +185,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 5 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 5 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -225,9 +207,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 6 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 6 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -236,9 +216,7 @@ export const WhyChooseus = () => {
                     <li
                       onClick={() => setCurrentInfo1(7)}
                       className={`flex justify-start items-center gap-4 font-[700] font-mainFont 2xl:text-base xl:text-base lg:text-base lg:landscape:text-[14px] md:portrait:text-base text-base  ${
-                        currentInfo1 === 7
-                          ? "text-[#F08613]"
-                          : "text-white "
+                        currentInfo1 === 7 ? "text-[#F08613]" : "text-white "
                       } transition-all duration-200 ease-linear cursor-pointer`}
                     >
                       <span>
@@ -251,9 +229,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 7 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 7 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -262,9 +238,7 @@ export const WhyChooseus = () => {
                     <li
                       onClick={() => setCurrentInfo1(8)}
                       className={`flex justify-start items-center gap-4 font-[700] font-mainFont 2xl:text-base xl:text-base lg:text-base lg:landscape:text-[14px] md:portrait:text-base text-base  ${
-                        currentInfo1 === 8
-                          ? "text-[#F08613]"
-                          : "text-white "
+                        currentInfo1 === 8 ? "text-[#F08613]" : "text-white "
                       } transition-all duration-200 ease-linear cursor-pointer`}
                     >
                       <span>
@@ -277,9 +251,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 8 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 8 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}
@@ -288,9 +260,7 @@ export const WhyChooseus = () => {
                     <li
                       onClick={() => setCurrentInfo1(9)}
                       className={`flex justify-start items-center gap-4 font-[700] font-mainFont 2xl:text-base xl:text-base lg:text-base lg:landscape:text-[14px] md:portrait:text-base text-base  ${
-                        currentInfo1 === 9
-                          ? "text-[#F08613]"
-                          : "text-white "
+                        currentInfo1 === 9 ? "text-[#F08613]" : "text-white "
                       } transition-all duration-200 ease-linear cursor-pointer`}
                     >
                       <span>
@@ -303,9 +273,7 @@ export const WhyChooseus = () => {
                         >
                           <path
                             d="M15.75 8C15.75 12.2812 12.25 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.75 3.71875 0.25 8 0.25C12.25 0.25 15.75 3.75 15.75 8ZM7.09375 12.125L12.8438 6.375C13.0312 6.1875 13.0312 5.84375 12.8438 5.65625L12.125 4.96875C11.9375 4.75 11.625 4.75 11.4375 4.96875L6.75 9.65625L4.53125 7.46875C4.34375 7.25 4.03125 7.25 3.84375 7.46875L3.125 8.15625C2.9375 8.34375 2.9375 8.6875 3.125 8.875L6.375 12.125C6.5625 12.3125 6.90625 12.3125 7.09375 12.125Z"
-                            fill={`${
-                              currentInfo1 === 9 ? "#F08613" : "#fff"
-                            }`}
+                            fill={`${currentInfo1 === 9 ? "#F08613" : "#fff"}`}
                           />
                         </svg>
                       </span>{" "}

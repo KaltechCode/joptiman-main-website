@@ -17,7 +17,7 @@ export const ProtectingTomorrow = () => {
   };
   return (
     <>
-      <div className="2xl:min-h-[90dvh] xl:min-h-[90dvh] lg:min-h-[90dvh] md:portrait:min-h-[50dvh] lg:portrait:min-h-[90dvh] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-16 xl:py-16  4k:xl:py-20 3k:xl:py-20 md:portrait:py-20 lg:py-20 py-20">
+      <div className="2xl:min-h-[min(90dvh,920px)] xl:min-h-[min(90dvh,920px)] lg:min-h-[min(90dvh,920px)] md:portrait:min-h-[50dvh] lg:portrait:min-h-[min(90dvh,920px)] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-16 xl:py-16  4k:xl:py-20 3k:xl:py-20 md:portrait:py-20 lg:py-20 py-20">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col 2xl:gap-8 xl:gap-8 lg:gap-8 4k:gap-16 3k:gap-16 gap-8  2xl:p-4 xl:p-4 lg:p-4 md:portrait:p-4 4k:p-4 3k:p-4 p-2 rounded-lg">
             <div className="flex flex-col 2xl:gap-5 xl:gap-5 lg:gap-5 3k:gap-10 4k:gap-10 gap-5">

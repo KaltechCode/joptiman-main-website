@@ -3,7 +3,7 @@ import React from "react";
 export const WaysToAssists = () => {
   return (
     <>
-      <div className="2xl:min-h-[70dvh] xl:min-h-[70dvh] lg:min-h-[80dvh] md:portrait:min-h-[70dvh] lg:portrait:min-h-[90dvh] min-h-[90dvh] 4k:min-h-[30dvh] 3k:min-h-[35dvh] flex justify-start items-center 2xl:py-16 xl:py-16  4k:xl:py-20 3k:xl:py-20 md:portrait:py-10 lg:py-20 py-5">
+      <div className="2xl:min-h-[min(70dvh,920px)] xl:min-h-[min(70dvh,920px)] lg:min-h-[min(80dvh,920px)] md:portrait:min-h-[min(70dvh,920px)] lg:portrait:min-h-[90dvh] min-h-[90dvh] 4k:min-h-[30dvh] 3k:min-h-[35dvh] flex justify-start items-center 2xl:py-16 xl:py-16  4k:xl:py-20 3k:xl:py-20 md:portrait:py-10 lg:py-20 py-5">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col gap-8  2xl:p-4 xl:p-4 lg:p-4 md:portrait:p-4 4k:p-4 3k:p-4 p-2 rounded-lg">
             <h3 className="text-4xl font-[700] font-mainFont text-secondaryColor">

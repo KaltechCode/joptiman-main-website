@@ -7,7 +7,7 @@ export const Mainsection = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="2xl:min-h-[90dvh] bg-white xl:min-h-[90dvh] lg:min-h-[90dvh] md:portrait:min-h-[90dvh] lg:portrait:min-h-[90dvh] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
+      <div className="2xl:min-h-[min(90dvh,920px)] bg-white xl:min-h-[min(90dvh,920px)] lg:min-h-[min(90dvh,920px)] md:portrait:min-h-[90dvh] lg:portrait:min-h-[min(90dvh,920px)] min-h-[90dvh] 4k:min-h-[60dvh] 3k:min-h-[65dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex gap-4 customShadowCoreValu 2xl:p-10 xl:p-10 lg:p-10 md:portrait:p-10 4k:p-10 3k:p-10 p-5 rounded-lg">
             <div className=" flex-1">
@@ -90,7 +90,10 @@ export const Mainsection = () => {
                     </ul>
                   </div>
                   <div className="flex-1 flex justify-center items-center">
-                    <button onClick={()=>navigate("/health-insurance")} className="bg-[#051E57] py-5 2xl:py-0 xl:py-0 lg:py-0 4k:py-0 3k:py-0 md:portrait:py-5 h-full w-[80%]  text-[#F08613] font-[700] font-mainFont text-2xl">
+                    <button
+                      onClick={() => navigate("/health-insurance")}
+                      className="bg-[#051E57] py-5 2xl:py-0 xl:py-0 lg:py-0 4k:py-0 3k:py-0 md:portrait:py-5 h-full w-[80%]  text-[#F08613] font-[700] font-mainFont text-2xl"
+                    >
                       Learn more
                     </button>
                   </div>
@@ -173,7 +176,10 @@ export const Mainsection = () => {
                     </ul>
                   </div>
                   <div className="flex-1 flex justify-center items-center">
-                    <button onClick={()=>navigate("/life-insurance")} className="bg-[#051E57] py-5 2xl:py-0 xl:py-0 lg:py-0 4k:py-0 3k:py-0 md:portrait:py-5 h-full w-[80%]  text-[#F08613] font-[700] font-mainFont text-2xl">
+                    <button
+                      onClick={() => navigate("/life-insurance")}
+                      className="bg-[#051E57] py-5 2xl:py-0 xl:py-0 lg:py-0 4k:py-0 3k:py-0 md:portrait:py-5 h-full w-[80%]  text-[#F08613] font-[700] font-mainFont text-2xl"
+                    >
                       Learn more
                     </button>
                   </div>
@@ -221,7 +227,10 @@ export const Mainsection = () => {
                     </ul>
                   </div>
                   <div className="flex-1 flex justify-center items-center">
-                    <button onClick={()=>navigate("/annuities")} className="bg-[#051E57] py-5 2xl:py-0 xl:py-0 lg:py-0 4k:py-0 3k:py-0 md:portrait:py-5 h-full w-[80%]  text-[#F08613] font-[700] font-mainFont text-2xl">
+                    <button
+                      onClick={() => navigate("/annuities")}
+                      className="bg-[#051E57] py-5 2xl:py-0 xl:py-0 lg:py-0 4k:py-0 3k:py-0 md:portrait:py-5 h-full w-[80%]  text-[#F08613] font-[700] font-mainFont text-2xl"
+                    >
                       Learn more
                     </button>
                   </div>
@@ -236,19 +245,19 @@ export const Mainsection = () => {
                 </h3>
                 <div className="w-full flex flex-col justify-center items-center gap-2">
                   <button
-                    onClick={()=>navigate("/health-insurance")}
+                    onClick={() => navigate("/health-insurance")}
                     className="w-full hover:bg-[#F08613] hover:text-white transition-all duration-200 ease-linear rounded-md bg-white py-2 font-[500] font-secondaryFont text-[#040B1E] text-base"
                   >
                     Health Insurance
                   </button>
                   <button
-                    onClick={()=>navigate("/life-insurance")}
+                    onClick={() => navigate("/life-insurance")}
                     className="w-full hover:bg-[#F08613] hover:text-white transition-all duration-200 ease-linear rounded-md bg-white py-2 font-[500] font-secondaryFont text-[#040B1E] text-base"
                   >
                     Life Insurance
                   </button>
                   <button
-                    onClick={()=>navigate("/annuities")}
+                    onClick={() => navigate("/annuities")}
                     className="w-full hover:bg-[#F08613] hover:text-white transition-all duration-200 ease-linear rounded-md bg-white py-2 font-[500] font-secondaryFont text-[#040B1E] text-base"
                   >
                     Annuities
@@ -269,7 +278,10 @@ export const Mainsection = () => {
                     <h3 className="font-[700] font-mainFont text-[1.35rem] text-center">
                       Need Any Types of Service from us
                     </h3>
-                    <button onClick={()=>navigate("/contact-us")} className="w-full py-3 flex flex-col justify-center items-center gap-2 bg-white text-[#0C0544] font-secondaryFont font-[600] opacity-100">
+                    <button
+                      onClick={() => navigate("/contact-us")}
+                      className="w-full py-3 flex flex-col justify-center items-center gap-2 bg-white text-[#0C0544] font-secondaryFont font-[600] opacity-100"
+                    >
                       <span>FIND</span>
                       <span>SOLUTION</span>
                     </button>

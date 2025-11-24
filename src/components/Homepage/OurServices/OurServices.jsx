@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export const OurServices = () => {
   return (
-    <div className="relative 2xl:min-h-[100dvh] xl:min-h-[100dvh] lg:min-h-[90dvh] md:portrait:min-h-[50dvh] min-h-[100dvh] 5k:min-h-[35dvh] 4k:min-h-[60dvh] 3k:min-h-[60dvh] flex justify-center items-center 2xl:py-2 xl:py-2 lg:py-2 md:portrait:py-8 5k:py-2  py-8 4k:py-20">
+    <div className="relative 2xl:min-h-[min(100dvh,920px)] xl:min-h-[min(100dvh,920px)] lg:min-h-[min(90dvh,920px)] md:portrait-min-h-[min(50dvh,720px)] 5k:min-h-[min(35dvh,920px)] 3k:min-h-[min(60dvh,720px)] flex justify-center items-center 2xl:py-2 xl:py-2 lg:py-2 md:portrait:py-8 5k:py-2  py-8 4k:py-20">
       <div className="absolute bottom-[10%] right-[5%]">
         <img
           src={AboutShape1}
@@ -74,7 +74,10 @@ export const OurServices = () => {
                     <img src={LifeInsuranceImg} alt="LifeInsuranceImg" />
                   </div>
                   <div className="px-5 py-4 readMoreWrapper transition-all duration-300 ease-linear">
-                    <Link to='life-insurance' className="flex justify-between items-center text-secondaryColor font-secondaryFont font-[700] text-[14px] cursor-pointer">
+                    <Link
+                      to="life-insurance"
+                      className="flex justify-between items-center text-secondaryColor font-secondaryFont font-[700] text-[14px] cursor-pointer"
+                    >
                       READ MORE{" "}
                       <span>
                         <svg
@@ -123,7 +126,10 @@ export const OurServices = () => {
                     <img src={HealthInsuranceImg} alt="HealthInsuranceImg" />
                   </div>
                   <div className="px-5 py-4 readMoreWrapper transition-all duration-300 ease-linear">
-                    <Link to='health-insurance' className="flex justify-between items-center text-secondaryColor font-secondaryFont font-[700] text-[14px] cursor-pointer">
+                    <Link
+                      to="health-insurance"
+                      className="flex justify-between items-center text-secondaryColor font-secondaryFont font-[700] text-[14px] cursor-pointer"
+                    >
                       READ MORE{" "}
                       <span>
                         <svg
@@ -171,7 +177,10 @@ export const OurServices = () => {
                     <img src={AnnuitiesImg} alt="AnnuitiesImg" />
                   </div>
                   <div className="px-5 py-4 readMoreWrapper transition-all duration-300 ease-linear">
-                    <Link to='annuities' className="flex justify-between items-center text-secondaryColor font-secondaryFont font-[700] text-[14px] cursor-pointer">
+                    <Link
+                      to="annuities"
+                      className="flex justify-between items-center text-secondaryColor font-secondaryFont font-[700] text-[14px] cursor-pointer"
+                    >
                       READ MORE{" "}
                       <span>
                         <svg

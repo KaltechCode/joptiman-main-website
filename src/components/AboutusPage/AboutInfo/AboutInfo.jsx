@@ -9,7 +9,7 @@ import { joinOurTeamLink } from "../../../util/constant";
 export const AboutInfo = () => {
   const router = useNavigate();
   return (
-    <div className="bg-[#F5F5F8] 4k:min-h-[65dvh] 3k:min-h-[65dvh] 2xl:min-h-[80dvh] xl:min-h-[80dvh] lg:min-h-[80dvh] lg:portrait:min-h-[90dvh] md:portrait:min-h-[100dvh] min-h-[100dvh] flex justify-center items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
+    <div className="bg-[#F5F5F8] 4k:min-h-[65dvh] 3k:min-h-[65dvh] 2xl:min-h-[min(80dvh,920px)] xl:min-h-[min(80dvh,920px)] lg:min-h-[min(80dvh,920px)] lg:portrait:min-h-[min(90dvh,920px)] md:portrait:min-h-[100dvh] min-h-[100dvh] flex justify-center items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
       <div className="max-w-[1920px] mx-auto w-full flex flex-col justify-center items-center">
         <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] flex 2xl:flex-row xl:flex-row 4k:flex-row 3k:flex-row md:portrait:flex-col lg:landscape:flex-row lg:portrait:flex-col flex-col justify-center items-center gap-10">
           <div className="px-5 lg:px-0 4k:w-[80%] 3k:w-[80%] 2xl:w-[95%] xl:w-full lg:w-full flex flex-col gap-4">
