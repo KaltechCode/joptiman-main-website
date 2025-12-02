@@ -17,7 +17,7 @@ export const WhyChooseus = () => {
   ];
 
   return (
-    <div className="2xl:min-h-[min(100dvh,920px)] xl:min-h-[min(100dvh,920px)] lg:min-h-[min(100dvh,920px)] md:portrait:min-h-[min(90dvh,920px)] 4k:min-h-[70dvh] 3k:min-h-[75dvh] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20">
+    <div className="2xl:min-h-[min(100dvh,720px)] xl:min-h-[min(100dvh,720px)] lg:min-h-[min(100dvh,720px)] md:portrait:min-h-[min(90dvh,720px)] 4k:min-h-[min(70dvh,720px)] 3k:min-h-[min(75dvh,720px)] flex justify-start items-center 2xl:py-12 xl:py-12  4k:xl:py-12 3k:xl:py-12 md:portrait:py-12 lg:py-28 py-12">
       <div className="max-w-[1920px] mx-auto w-full">
         <div className="2xl:w-[70%] xl:w-[70%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col gap-16">
           <div className="flex-1 w-full flex flex-col gap-10">

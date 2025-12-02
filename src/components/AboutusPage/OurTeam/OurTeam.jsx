@@ -80,7 +80,7 @@ export const OurTeam = () => {
   }, []);
   return (
     <>
-      <div className="2xl:min-h-[min(100dvh,920px)] 4k:min-h-[80dvh] 3k:min-h-[85dvh] xl:min-h-[min(90dvh,920px)] lg:min-h-[min(90dvh,920px)] md:portrait:min-h-[90dvh] flex justify-start items-center 2xl:py-28 4k:py-28 3k:py-28 xl:py-28 md:portrait:py-28 py-20 bg-[#F5F5F8]">
+      <div className="2xl:min-h-[min(100dvh,720px)] 4k:min-h-[min(80dvh,720px)] 3k:min-h-[min(85dvh,720px)] xl:min-h-[min(90dvh,720px)] lg:min-h-[min(90dvh,720px)] md:portrait:min-h-[min(90dvh,720px)] flex justify-start items-center 2xl:py-12 4k:py-12 3k:py-12 xl:py-12 md:portrait:py-12 py-12 bg-[#F5F5F8]">
         <div className="max-w-[1920px] mx-auto w-full">
           <div className="2xl:w-[70%] xl:w-[80%] lg:portrait:w-[90%] md:portrait:w-[90%] lg:w-[90%] 4k:w-[70%] 3k:w-[70%] w-[95%] mx-auto flex flex-col  bg-[#040B1E] text-white 2xl:p-8 xl:p-8 4k:p-16 3k:p-14 md:portrait:p-8 p-4 rounded-lg">
             <div className="mx-auto 2xl:w-[65%] xl:w-[65%] lg:w-[75%] md:portrait:w-[85%] 4k:w-[65%] 3k:w-[65%] w-[95%] flex flex-col justify-center items-center gap-8">

@@ -13,7 +13,7 @@ export const AnnuitiesService = () => {
   ];
   return (
     <>
-      <div className="2xl:min-h-[80dvh] xl:min-h-[90dvh] lg:min-h-[90dvh] md:portrait:min-h-[50dvh] min-h-[80dvh] bg-[#F4F4F4] 4k:min-h-[20dvh] 3k:min-h-[25dvh] flex justify-start items-center 2xl:py-16 xl:py-16  4k:xl:py-20 3k:xl:py-20 md:portrait:py-16 lg:py-20 py-12 relative">
+      <div className="2xl:min-h-[min(80dvh,620px)] xl:min-h-[min(90dvh,620px)] lg:min-h-[min(90dvh,620px)] md:portrait:min-h-[min(50dvh,620px)] min-h-[min(80dvh,620px)] bg-[#F4F4F4] 4k:min-h-[min(20dvh,620px)] 3k:min-h-[min(25dvh,620px)] flex justify-start items-center 2xl:py-12 xl:py-12  4k:xl:py-12 3k:xl:py-12 md:portrait:py-12 lg:py-12 py-12 relative">
         <div className="absolute top-0 left-0 w-[60%] h-full">
           <img className="w-full h-full opacity-20" src={AboutWhychooseusBg1} />
         </div>
