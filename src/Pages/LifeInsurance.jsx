@@ -9,7 +9,6 @@ import { ProtectingTomorrow } from "../components/LifeInsurancePage/ProtectingTo
 import { WaysToAssists } from "../components/LifeInsurancePage/WaysToAssist/WaysToAssist";
 
 export const LifeInsurance = () => {
-
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);

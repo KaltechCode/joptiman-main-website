@@ -4,11 +4,10 @@ import { Dot } from "lucide-react";
 import HeroGraphics1 from "../../../assets/Herograhics.png";
 import HeroGraphics2 from "../../../assets/RightShapes.png";
 
-
 export const Herosection = () => {
   return (
     <>
-      <div className="2xl:h-[35dvh] xl:h-[35dvh] lg:h-[25dvh] md:portrait:h-[30dvh] 4k:h-[30dvh] 3k:h-[30dvh] h-[30dvh] w-full relative flex justify-center items-center healthInsurance__heroMainWrapper">
+      <div className="2xl:h-[min(35dvh,230px)] xl:h-[min(35dvh,230px] lg:h-[min(25dvh,230px)] md:portrait:h-[min(30dvh,200px)] 4k:h-[min(30dvh,200px)] 3k:h-[min(30dvh,200px)] h-[min(30dvh,200px)] w-full relative flex justify-center items-center healthInsurance__heroMainWrapper">
         <div className="absolute right-0 bottom-0 opacity-100 z-10">
           <img src={HeroGraphics2} alt="HeroGraphics2" className="h-44" />
         </div>
