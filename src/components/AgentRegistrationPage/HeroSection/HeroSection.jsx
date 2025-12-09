@@ -4,7 +4,7 @@ import AgentHeroBg from "../../../assets/AgentHeroBg.png";
 export const HeroSection = () => {
   return (
     <>
-      <div className="2xl:h-[20dvh] xl:h-[20dvh] lg:h-[15dvh] md:portrait:h-[20dvh] 4k:h-[15dvh] 3k:h-[15dvh] h-[20dvh] w-full relative flex justify-center items-center">
+      <div className="2xl:h-[min(20dvh,250px)] xl:h-[min(20dvh,250px)] lg:h-[min(15dvh,250px)] md:portrait:h-[min(20dvh,250px)] 4k:h-[min(15dvh,250px)] 3k:h-[min(15dvh,250px)] h-[min(20dvh,250px)] w-full relative flex justify-center items-center">
         <div className="absolute top-0 left-0 w-full h-full">
           <img
             src={AgentHeroBg}

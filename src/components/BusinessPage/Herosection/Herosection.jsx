@@ -18,10 +18,12 @@ export const Herosection = () => {
           <div className="w-[90%] mx-auto  flex justify-center items-center">
             <div className="w-[80%]">
               <h1 className="font-mainFont 2xl:text-5xl xl:text-5xl lg:text-5xl md:portrait:text-5xl 4k:text-5xl 3k:text-5xl text-2xl text-secondaryColor font-[600]">
-              Business
+                Business
               </h1>
               <p className="text-base font-secondaryFont flex justify-start items-start gap-2 mt-2 font-[500]">
-                <Link to='/' className="text-[#F08613]">Home</Link>
+                <Link to="/" className="text-[#F08613]">
+                  Home
+                </Link>
                 <Dot />
                 Business
               </p>

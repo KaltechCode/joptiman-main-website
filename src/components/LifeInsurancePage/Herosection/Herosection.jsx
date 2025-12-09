@@ -14,13 +14,13 @@ export const Herosection = () => {
         <div className="max-w-[1920px] mx-auto relative z-20 flex justify-center items-center w-full">
           <div className="w-[90%] mx-auto  flex justify-center items-center">
             <div className="w-[80%]">
-              <h1 className="font-mainFont 2xl:text-6xl xl:text-5xl lg:text-5xl md:portrait:text-5xl 4k:text-6xl 3k:text-6xl text-2xl text-mainColor font-[600]">
+              <h1 className="font-mainFont 2xl:text-6xl xl:text-5xl lg:text-4xl md:portrait:text-5xl 4k:text-5xl 3k:text-4xl text-2xl   text-mainColor font-[600]">
                 Life Insurance
               </h1>
               <div className="mt-[1%]">
                 <div>
                   <img
-                    className="h-[15dvh] w-auto"
+                    className="h-[min(15dvh,100px)]"
                     src={HeroGraphics1}
                     alt="HeroGraphics"
                   />

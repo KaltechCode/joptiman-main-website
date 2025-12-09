@@ -3,14 +3,20 @@ import ContactHeroImgBg from "../../../assets/ContactHeroImg.png";
 
 export const HeroSection = () => {
   return (
-    <div className="2xl:h-[20dvh] xl:h-[20dvh] lg:h-[15dvh] md:portrait:h-[20dvh] 4k:h-[15dvh] 3k:h-[15dvh] h-[20dvh] w-full relative flex justify-center items-center">
+    <div className="2xl:h-[min(35dvh,250px)] xl:h-[min(35dvh,250px)] lg:h-[min(25dvh,250px)] md:portrait:h-[min(30dvh,250px)] 4k:h-[min(30dvh,250px)] 3k:h-[min(30dvh,250px)] h-[min(30dvh,250px)] w-full relative flex justify-center items-center">
       <div className="absolute top-0 left-0 w-full h-full">
-        <img src={ContactHeroImgBg} alt="ContactHeroImgBg" className="w-full h-full object-cover" />
+        <img
+          src={ContactHeroImgBg}
+          alt="ContactHeroImgBg"
+          className="w-full h-full object-cover"
+        />
       </div>
       <div className="max-w-[1920px] mx-auto relative z-20 flex justify-center items-center w-full">
         <div className="w-[90%] mx-auto  flex justify-center items-center">
           <div className="w-[80%]">
-            <h1 className="font-mainFont 2xl:text-5xl xl:text-5xl lg:text-5xl md:portrait:text-5xl 4k:text-5xl 3k:text-5xl text-3xl text-mainColor font-[600]">Contact</h1>
+            <h1 className="font-mainFont 2xl:text-5xl xl:text-5xl lg:text-5xl md:portrait:text-5xl 4k:text-5xl 3k:text-5xl text-3xl text-mainColor font-[600]">
+              Contact
+            </h1>
           </div>
         </div>
       </div>

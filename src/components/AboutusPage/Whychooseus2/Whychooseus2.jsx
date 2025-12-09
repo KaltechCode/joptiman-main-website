@@ -33,7 +33,7 @@ export const Whychooseus2 = () => {
   };
   return (
     <>
-      <div className="2xl:min-h-[min(90dvh,720px)] xl:min-h-[min(90dvh,720px)] lg:min-h-[min(90dvh,720px)] md:portrait:min-h-[min(90dvh,720px)] min-h-[min(100dvh,720px)] bg-[#F4F4F4] 4k:min-h-[min(80dvh,720px)] 3k:min-h-[min(80dvh,720px)] flex justify-start items-center 2xl:py-24 xl:py-24  4k:xl:py-28 3k:xl:py-28 md:portrait:py-28 lg:py-28 py-20 relative">
+      <div className="2xl:min-h-[min(90dvh,620px)] xl:min-h-[min(90dvh,620px)] lg:min-h-[min(90dvh,620px)] md:portrait:min-h-[min(90dvh,620px)] min-h-[min(100dvh,620px)] bg-[#F4F4F4] 4k:min-h-[min(80dvh,620px)] 3k:min-h-[min(80dvh,620px)] flex justify-start items-center 2xl:py-12 xl:py-12  4k:xl:py-12 3k:xl:py-12 md:portrait:py-12 lg:py-12 py-12 relative">
         <div className="absolute top-0 left-0 w-[60%] h-full">
           <img className="w-full h-full opacity-20" src={AboutWhychooseusBg1} />
         </div>

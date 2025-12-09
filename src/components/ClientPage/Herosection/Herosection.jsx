@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const Herosection = () => {
   return (
     <>
-      <div className="2xl:h-[25dvh] xl:h-[25dvh] lg:h-[15dvh] md:portrait:h-[20dvh] 4k:h-[20dvh] 3k:h-[20dvh] h-[20dvh] w-full relative flex justify-center items-center">
+      <div className="2xl:h-[min(25dvh,230px)] xl:h-[min(25dvh,250px)] lg:h-[min(15dvh,230px)] md:portrait:h-[min(20dvh,230px)] 4k:h-[min(20dvh,230px)] 3k:h-[min(20dvh,230px)] h-[min(20dvh,230px)] w-full relative flex justify-center items-center">
         <div className="absolute top-0 left-0 w-full h-full">
           <img
             src={AboutPageHeroBg}
