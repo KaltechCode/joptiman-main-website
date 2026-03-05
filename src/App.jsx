@@ -12,6 +12,7 @@ import { HealthInsurance } from "./Pages/HealthInsurance";
 import { LifeInsurance } from "./Pages/LifeInsurance";
 import { Annuities } from "./Pages/Annuities";
 import { Register } from "./Pages/Register";
+import ITSupport from "./Pages/ITSupport";
 
 function App() {
   // useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/life-insurance" exact element={<LifeInsurance />} />
           <Route path="/annuities" exact element={<Annuities />} />
           <Route path="/register" exact element={<Register />} />
+          <Route path="/technical-support" exact element={<ITSupport />} />
         </Routes>
       </Router>
     </>

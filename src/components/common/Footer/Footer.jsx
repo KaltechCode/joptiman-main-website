@@ -1,8 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { joinOurTeamLink } from "../../../util/constant";
+import * as yup from "yup";
 
 export const Footer = () => {
+  const schema = yup.object().shape({
+    Name_First: yup
+      .string()
+      .required("First Name is required")
+      .label("First Name"),
+    Name_Last: yup
+      .string()
+      .required("Last Name is required")
+      .label("Last Name"),
+    Email: yup
+      .string()
+      .email("Invalid email")
+      .required("Email is required")
+      .label("Email Address"),
+    SingleLine: yup.string().required("Subject is required").label("Subject"),
+    MultiLine: yup.string().required("Message is required").label("Message"),
+  });
   return (
     <>
       <footer className="bg-[#040B1E] py-10 pt-24 4k:py-16 4k:pt-28">
@@ -104,6 +122,14 @@ export const Footer = () => {
                       className="text-base font-[400] font-secondaryFont text-[#ABAFB5]"
                     >
                       Contact Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/technical-support"
+                      className="text-base font-[400] font-secondaryFont text-[#ABAFB5]"
+                    >
+                      IT Support
                     </Link>
                   </li>
                 </ul>
