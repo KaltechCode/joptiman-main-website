@@ -1,26 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { joinOurTeamLink } from "../../../util/constant";
-import * as yup from "yup";
 
 export const Footer = () => {
-  const schema = yup.object().shape({
-    Name_First: yup
-      .string()
-      .required("First Name is required")
-      .label("First Name"),
-    Name_Last: yup
-      .string()
-      .required("Last Name is required")
-      .label("Last Name"),
-    Email: yup
-      .string()
-      .email("Invalid email")
-      .required("Email is required")
-      .label("Email Address"),
-    SingleLine: yup.string().required("Subject is required").label("Subject"),
-    MultiLine: yup.string().required("Message is required").label("Message"),
-  });
+  const date = new Date();
   return (
     <>
       <footer className="bg-[#040B1E] py-10 pt-24 4k:py-16 4k:pt-28">
@@ -202,7 +185,7 @@ export const Footer = () => {
 
             <div className="flex justify-center gap-6 items-center w-full py-5 flex-wrap border-t border-paraColor/20 mt-10">
               <p className="text-[14px] font-[400] font-secondaryFont text-[#ABAFB5]  flex-shrink-0">
-                Copyright © 2025 JOptiman Consultancy
+                Copyright © {date.getFullYear()} JOptiman Consultancy
               </p>
               <p className="text-[14px] font-[400] font-secondaryFont text-[#ABAFB5] flex-shrink-0">
                 {" "}
