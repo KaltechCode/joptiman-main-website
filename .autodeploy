@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+echo "Starting deployment..."
+
+echo "Installing dependencies..."
+npm install
+
+echo "Building Vite application..."
+npm run build
+
+echo "Vite build completed successfully."
+
+echo "Deployment completed successfully."
