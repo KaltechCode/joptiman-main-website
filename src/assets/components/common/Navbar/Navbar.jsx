@@ -220,7 +220,7 @@ export const Navbar = () => {
               </nav>
               <div className="md:portrait:flex 2xl:flex xl:flex lg:flex hidden md:portrait:ml-auto md:portrait:mr-10">
                 <Link
-                  to="https://portal.joptimanconsultancy.com/"
+                  to="https://portal.joptiman.com"
                   // target="_blank"
                   // onClick={() => router("/agent-registration")}
                   className="flex button justify-center items-center gap-4 bg-secondaryColor px-5 py-1.5 rounded-lg text-white font-secondaryFont font-[500] 2xl:text-lg xl:text-lg lg:text-[14px] transition-all duration-300 ease-linear border border-[#F08613] outline-none"
@@ -375,7 +375,7 @@ const MobileMenu = ({ handleCloseMenu }) => {
         <div className="w-[90%] mx-auto menuChildWrapper opacity-0">
           <div className="w-full">
             <Link
-              to="http://portal.joptimanconsultancy.com/"
+              to="https://portal.joptiman.com"
               target="_blank"
               className="flex button justify-center items-center gap-4 bg-secondaryColor px-5 py-3 rounded-lg text-white font-secondaryFont font-[500] text-xl w-full transition-all duration-300 ease-linear border border-[#F08613] outline-none"
             >
